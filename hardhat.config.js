@@ -31,13 +31,13 @@ const config = {
     localhost: {
       chainId: 31337,
     },
-    testnet: {
+    bsctest: {
       url: "https://bsc-testnet.nodereal.io/v1/18224da5a61f445fb9ef01c78da70bed",
       chainId: 97,
       accounts: [DEPLOYER],
       gasPrice: 8000000000,
     },
-    mainnet: {
+    eth: {
       url: 'https://eth-mainnet.nodereal.io/v1/18224da5a61f445fb9ef01c78da70bed',
       chainId: 1,
       accounts: [DEPLOYER],
