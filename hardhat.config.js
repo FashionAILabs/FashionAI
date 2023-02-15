@@ -32,16 +32,15 @@ const config = {
       chainId: 31337,
     },
     testnet: {
-      url: 'https://bsc-testnet.nodereal.io/v1/18224da5a61f445fb9ef01c78da70bed',
+      url: "https://bsc-testnet.nodereal.io/v1/18224da5a61f445fb9ef01c78da70bed",
       chainId: 97,
       accounts: [DEPLOYER],
       gasPrice: 8000000000,
     },
     mainnet: {
-      url: 'https://bsc-dataseed.binance.org',
-      chainId: 56,
+      url: 'https://eth-mainnet.nodereal.io/v1/18224da5a61f445fb9ef01c78da70bed',
+      chainId: 1,
       accounts: [DEPLOYER],
-      gasPrice: 8000000000,
     }
   },
   etherscan: {
