@@ -41,6 +41,7 @@ const config = {
       url: 'https://eth-mainnet.nodereal.io/v1/18224da5a61f445fb9ef01c78da70bed',
       chainId: 1,
       accounts: [DEPLOYER],
+      gasPrice: 26000000000,
     }
   },
   etherscan: {
